@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://tilesets/TestTileset.tres" type="TileSet" id=1]
 [ext_resource path="res://sprites/light.png" type="Texture" id=2]
 [ext_resource path="res://objects/enemy.tscn" type="PackedScene" id=3]
 [ext_resource path="res://objects/player.tscn" type="PackedScene" id=4]
+[ext_resource path="res://objects/collectible.tscn" type="PackedScene" id=5]
 
 [node name="Root" type="Node2D" index="0"]
 
@@ -214,5 +215,29 @@ speed = 150
 
 position = Vector2( 512, 320 )
 _sections_unfolded = [ "Visibility", "Z Index", "collision" ]
+
+[node name="collectible" parent="." index="13" instance=ExtResource( 5 )]
+
+position = Vector2( 208, 304 )
+
+[node name="collectible3" parent="." index="14" instance=ExtResource( 5 )]
+
+position = Vector2( 512, 736 )
+
+[node name="collectible4" parent="." index="15" instance=ExtResource( 5 )]
+
+position = Vector2( 1536, 544 )
+
+[node name="collectible5" parent="." index="16" instance=ExtResource( 5 )]
+
+position = Vector2( 944, 80 )
+
+[node name="collectible6" parent="." index="17" instance=ExtResource( 5 )]
+
+position = Vector2( 80, 80 )
+
+[node name="collectible2" parent="." index="18" instance=ExtResource( 5 )]
+
+position = Vector2( 816, 304 )
 
 

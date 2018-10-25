@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/wall.png-202f71260357ef04e6e8c2cec090a94e.stex"
+path="res://.import/collectible.png-5dcd91f6f2923379c7a7d3cb47d04bd5.stex"
 
 [deps]
 
-source_file="res://sprites/wall.png"
-source_md5="b8db6c97fa28b34fbccd17347a0d7f82"
+source_file="res://sprites/collectible.png"
+source_md5="374c0d9b95632fabc39004422640d2d9"
 
-dest_files=[ "res://.import/wall.png-202f71260357ef04e6e8c2cec090a94e.stex" ]
-dest_md5="acc324edb70cab8427848b68cad8b377"
+dest_files=[ "res://.import/collectible.png-5dcd91f6f2923379c7a7d3cb47d04bd5.stex" ]
+dest_md5="29a9c51b4764178804c5375978c15c35"
 
 [params]
 
@@ -28,5 +28,5 @@ process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0
